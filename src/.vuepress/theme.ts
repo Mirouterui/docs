@@ -15,9 +15,9 @@ export default hopeTheme({
 
   logo: "/assets/images/mrui-logo.png",
 
-  repo: "Mirouterui/mirouter-ui",
+  repo: "Mirouterui/docs",
 
-  docsDir: "/",
+  docsDir: "/src",
 
   // 导航栏
   navbar,
