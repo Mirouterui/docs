@@ -8,11 +8,6 @@ export default navbar([
     link: "/guide/intro",
   },
   {
-    text: "在线前端",
-    icon: "fa-solid fa-newspaper",
-    link: "http://mrui-web.hzchu.top/",
-  },
-  {
     text: "代码仓库",
     icon: "fa-solid fa-warehouse",
     children: [
@@ -21,5 +16,10 @@ export default navbar([
         link: "https://github.com/Mirouterui/mirouter-ui",
       },
     ]
+  },
+  {
+    text: "在线前端",
+    icon: "fa-solid fa-newspaper",
+    link: "http://mrui-web.hzchu.top/",
   }
 ]);

@@ -1,5 +1,7 @@
 # Mirouter-UI  Documentation
 
+[![HitCount](https://hits.dwyl.com/Mirouterui/docs.svg?style=flat)](http://hits.dwyl.com/Mirouterui/docs)
+
 ## Build
 
 ```

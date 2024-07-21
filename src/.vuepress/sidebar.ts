@@ -13,7 +13,8 @@ export default sidebar({
           prefix: "guide/",
           children: [
             { text: "项目介绍", icon: "fa-brands fa-squarespace", link: "/guide/intro" },
-            { text: "程序部署", icon: "fa-solid fa-rocket", link: "/guide/deploy" }
+            { text: "程序部署", icon: "fa-solid fa-rocket", link: "/guide/deploy" },
+            { text: "程序部署（路由器）", icon: "fa-solid fa-hard-drive", link: "/guide/deploytorouter" }
           ],
         },
         {
@@ -27,10 +28,12 @@ export default sidebar({
         },
         {
           text: "扩展阅读",
-          prefix: "tools/",
+          prefix: "more/",
           children: [
             { text: "命令行参数", icon: "fa-solid fa-terminal", link: "/more/command" },
             { text: "守护进程", icon: "fa-solid fa-person-military-pointing", link: "/more/guard" },
+            { text: "简化版", icon: "fa-solid fa-cat", link: "/more/lite" },
+            { text: "多语言", icon: "fa-solid fa-globe", link: "/more/i18n" },
             { text: "开发规划", icon: "fa-solid fa-note-sticky", link: "/more/plan" },
             { text: "统计", icon: "fa-solid fa-chart-column", link: "/more/statistics" }
           ],
