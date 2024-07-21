@@ -4,10 +4,9 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   base: "/",
-
   lang: "zh-CN",
-  title: "文档演示",
-  description: "vuepress-theme-hope 的文档演示",
+  title: "Mirouter-UI",
+  description: "基于小米路由器API的展示面板",
 
   theme,
 

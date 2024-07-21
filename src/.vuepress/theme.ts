@@ -4,20 +4,20 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://mrui.hzchu.top",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "thun888",
+    url: "https://www.hzchu.top",
   },
-
+  license: "CC BY-NC-SA 4.0",
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/assets/images/mrui-logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "Mirouterui/mirouter-ui",
 
-  docsDir: "src",
+  docsDir: "/",
 
   // 导航栏
   navbar,
@@ -26,15 +26,8 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "Mirouter-UI",
   displayFooter: true,
-
-  // 加密配置
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-    },
-  },
 
   // 多语言配置
   metaLocales: {
@@ -48,31 +41,29 @@ export default hopeTheme({
   plugins: {
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
-    },
+      provider: "Artalk",
+      server: "https://artalk.hzchu.top",
+      useBackendConf: true
+  },
 
-    components: {
-      components: ["Badge", "VPCard"],
-    },
+    // components: {
+    //   components: ["Badge", "VPCard"],
+    // },
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
-      align: true,
-      attrs: true,
-      codetabs: true,
-      component: true,
-      demo: true,
-      figure: true,
+      align: false,
+      attrs: false,
+      codetabs: false,
+      component: false,
+      demo: false,
+      figure: false,
       imgLazyload: true,
       imgSize: true,
-      include: true,
+      include: false,
       mark: true,
-      plantuml: true,
-      spoiler: true,
+      plantuml: false,
+      spoiler: false,
       stylize: [
         {
           matcher: "Recommended",
