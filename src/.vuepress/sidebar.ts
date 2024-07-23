@@ -39,10 +39,10 @@ export default sidebar({
           ],
         },
         {
-          text: "工具",
-          prefix: "tools/",
+          text: "下载",
+          prefix: "download/",
           children: [
-            { text: "MiKVIVator", icon: "fa-solid fa-wand-magic-sparkles", link: "/tools/mikvivator" },
+            { text: "MiKVIVator", icon: "fa-solid fa-wand-magic-sparkles", link: "/download/mikvivator" },
           ],
         }
       ],

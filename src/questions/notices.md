@@ -2,6 +2,8 @@
 
 我想，“怎么提问”这个问题也是老生常谈了，我也不多说，参阅[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)。
 
+在提出问题之前，尝试自己解决问题，如简单的重启。再在[Issues](https://github.com/Mirouterui/mirouter-ui/issues)里查看是否有类似情况，无法解决再提问
+
 ## 联系我们
 
 你可以在[Issues](https://github.com/Mirouterui/mirouter-ui/issues)处提出功能建议，发现Bug等，
@@ -32,6 +34,8 @@
 
    - 运行环境
 
+   - 配置文件（注意不要泄露密码）
+
    - 路由器型号及版本号
 
    - 前文记录的复现方法
@@ -43,6 +47,6 @@
      docker部署使用`docker logs -f -t {name}`获取后端日志
 
       :::
-
+   
    - 前文获取的网络日志
 

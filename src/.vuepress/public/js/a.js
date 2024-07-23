@@ -5,6 +5,6 @@
     script.defer = true;
     script.dataset.websiteId = '480b3ab1-bebe-454a-a462-84eab7a9e381';
     script.dataset.hostUrl = 'https://seeyou.hzchu.top';
-    script.dataset.domains = 'blog.hzchu.top';
+    script.dataset.domains = 'mrui.hzchu.top';
     document.head.appendChild(script);
 })();
