@@ -52,7 +52,7 @@ export default hopeTheme({
     docsearch: {
       appId: "S1W09EYIIE",
       apiKey: "a2cf632c6c19da43b59e9bfc654bdb95",
-      indexName: "mrui-hzchu",
+      indexName: "MRUI",
 
     },
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。

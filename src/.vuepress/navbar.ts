@@ -8,6 +8,11 @@ export default navbar([
     link: "/guide/intro",
   },
   {
+    text: "下载",
+    icon: "fa-solid fa-download",
+    link: "/download/",
+  },
+  {
     text: "代码仓库",
     icon: "fa-solid fa-warehouse",
     children: [

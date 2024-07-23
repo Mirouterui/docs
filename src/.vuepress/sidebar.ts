@@ -32,7 +32,7 @@ export default sidebar({
           children: [
             { text: "命令行参数", icon: "fa-solid fa-terminal", link: "/more/command" },
             { text: "守护进程", icon: "fa-solid fa-person-military-pointing", link: "/more/guard" },
-            { text: "简化版", icon: "fa-solid fa-cat", link: "/more/lite" },
+            { text: "简化版", icon: "fa-solid fa-leaf", link: "/more/lite" },
             { text: "多语言", icon: "fa-solid fa-globe", link: "/more/i18n" },
             { text: "开发规划", icon: "fa-solid fa-note-sticky", link: "/more/plan" },
             { text: "统计", icon: "fa-solid fa-chart-column", link: "/more/statistics" }
@@ -42,6 +42,7 @@ export default sidebar({
           text: "下载",
           prefix: "download/",
           children: [
+            { text: "MRUI", icon: "fa-solid fa-cat", link: "/download/mrui" },
             { text: "MiKVIVator", icon: "fa-solid fa-wand-magic-sparkles", link: "/download/mikvivator" },
           ],
         }
