@@ -18,6 +18,13 @@ export default sidebar({
           ],
         },
         {
+          text: "万物互联",
+          prefix: "connect/",
+          children: [
+            { text: "Netdata", icon: "fa-solid fa-network-wired", link: "/connect/netdata" }
+          ],
+        },
+        {
           text: "常见问题",
           prefix: "questions/",
           children: [
