@@ -39,6 +39,51 @@ sudo systemctl enable mrui
 - 停止：`sudo systemctl stop mrui`
 - 重启：`sudo systemctl restart mrui`
 
+## rc.common
+
+**前提条件**：为`OpenWRT`系统，如小米路由器
+
+注册为系统服务：
+
+```bash
+vim /etc/init.d/mrui
+```
+
+填入：
+
+```ini
+#!/bin/sh /etc/rc.common
+START=80
+STOP=90
+
+start() {
+        service_start /path/to/mrui &
+}
+
+stop() {
+        service_stop /path/to/mrui
+}
+
+```
+
+给该文件可执行权限
+
+```bash
+chmod +x /etc/init.d/mrui
+```
+
+设置开机自启：
+
+```bash
+/etc/init.d/mrui enable
+```
+
+管理：
+
+- 启动：`/etc/init.d/mrui start`
+- 停止：`/etc/init.d/mrui stop`
+- 重启：`/etc/init.d/mrui restart`
+
 ## rc-service
 
 **前提条件**：你所使用的系统具有该管理器，通常为`Alpine`系统

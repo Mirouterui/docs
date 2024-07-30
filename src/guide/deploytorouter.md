@@ -67,3 +67,5 @@ Linux XiaoQiang 4.4.60 #0 SMP PREEMPT Wed Jun 1 09:55:13 2022 armv7l GNU/Linux
 ![image-20240725102024817](https://onep.hzchu.top/mount/pic/myself/2024/07/66a1b66f54106.png?fmt=webp)
 
 ![image-20240725103424681](https://onep.hzchu.top/mount/pic/myself/2024/07/66a1b9b73b1fb.png?fmt=webp)
+
+测试正常后，按照[这里](/more/guard.md#rc-common)来配置守护进程

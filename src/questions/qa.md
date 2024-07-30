@@ -14,11 +14,15 @@
 
 ## 在线前端无法使用
 
-![image-20240721093220144](https://onep.hzchu.top/mount/pic/myself/2024/07/669c6526623d7.png?fmt=webp)
+![image-20240721093220144](https://onep.hzchu.top/mount/pic/myself/2024/07/669c6526623d7.png)
 
 ## 无线连接速率与实际不符
 
 前端显示的是实时的工作速率，受节能等因素影响非活动状态下不等于协商速率。如需测量协商速率，可以在无线终端上开下测速软件（￣︶￣）（当然，你有一百种方法让它活跃起来）
+
+## 下载报错：wget: not an http or ftp url
+
+将下载链接中的`https`改为`http`。或在本地下载好后使用WinSCP，上传到路由器
 
 ## Alpine上无法运行
 

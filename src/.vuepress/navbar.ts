@@ -20,6 +20,10 @@ export default navbar([
         text: "后端",
         link: "https://github.com/Mirouterui/mirouter-ui",
       },
+      {
+        text: "文档",
+        link: "https://github.com/Mirouterui/docs",
+      }
     ]
   },
   {

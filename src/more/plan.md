@@ -4,6 +4,8 @@
 2. Prometheus支持
 3. 重构API接口
 4. 完善i18n支持
+5. 使用yaml作为配置文件格式
+6. 新增一个配置项`SecurityMode`，用于控制是否限制接口的调用
 
 
 

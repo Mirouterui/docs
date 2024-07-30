@@ -7,8 +7,9 @@
 - `/api/misystem/devicelist`：用于获取设备列表及设备基础信息
 - `/api/xqsystem/internet_connect`：检查是否连接互联网
 - `/api/xqsystem/fac_info`：获取工厂信息
-- `/api/misystem/messages`：未知用途
-- `/api/xqsystem/upnp`：获取upnp信息
+- `/api/misystem/messages`：可用于获取`token`状态
+- `/api/xqsystem/upnp`：获取`upnp`信息
+- `/api/xqnetwork/diagdevicelist`：获取无线连接信息
 
 返回的内容只包括基本的网络信息，通常来讲无需过于在意。
 
