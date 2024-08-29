@@ -20,10 +20,10 @@
 
 ```
 docker run -d \
-    --name mirouter-ui
-	-p 6789:6789
-    -v $(pwd):/app/data
-    --restart=always
+    --name mirouter-ui \
+	-p 6789:6789 \
+    -v $(pwd):/app/data \
+    --restart=always \
     thun888/mirouter-ui
 ```
 
