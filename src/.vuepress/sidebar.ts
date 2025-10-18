@@ -13,6 +13,7 @@ export default sidebar({
           prefix: "guide/",
           children: [
             { text: "项目介绍", icon: "fa-brands fa-squarespace", link: "/guide/intro" },
+            { text: "程序部署(v2)", icon: "fa-solid fa-rocket", link: "/guide/deploy(v2)" },
             { text: "程序部署", icon: "fa-solid fa-rocket", link: "/guide/deploy" },
             { text: "程序部署（路由器）", icon: "fa-solid fa-hard-drive", link: "/guide/deploytorouter" }
           ],

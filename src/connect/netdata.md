@@ -1,5 +1,13 @@
 # Netdata
 
+::: tip
+
+v2版本中已移除该功能支持
+
+ :::
+
+
+
 程序内建了部分netdata的api，可以结合HA和SD2小电视实现性能监控
 
 ## Home Assistant
