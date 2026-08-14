@@ -11,7 +11,6 @@ export default hopeTheme({
     url: "https://www.hzchu.top",
   },
   license: "CC BY-NC-SA 4.0",
-  iconAssets: "fontawesome-with-brands",
 
   logo: "/assets/images/mrui-logo.png",
 
@@ -37,8 +36,45 @@ export default hopeTheme({
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
   // hotReload: true,
 
+  // Markdown 增强选项
+  markdown: {
+    align: false,
+    attrs: false,
+    codeTabs: false,
+    component: false,
+    demo: false,
+    figure: false,
+    imgLazyload: true,
+    imgSize: true,
+    include: false,
+    mark: true,
+    plantuml: false,
+    spoiler: false,
+    stylize: [
+      {
+        matcher: "Recommended",
+        replacer: ({ tag }) => {
+          if (tag === "em")
+            return {
+              tag: "Badge",
+              attrs: { type: "tip" },
+              content: "Recommended",
+            };
+        },
+      },
+    ],
+    sub: true,
+    sup: true,
+    tabs: true,
+    tasklist: true,
+    vPre: true,
+  },
+
   // 在这里配置主题提供的插件
   plugins: {
+    icon: {
+      assets: "fontawesome-with-brands",
+    },
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
       provider: "Artalk",
@@ -55,78 +91,6 @@ export default hopeTheme({
       indexName: "mrui-hzchu",
 
     },
-    // 此处开启了很多功能用于演示，你应仅保留用到的功能。
-    mdEnhance: {
-      align: false,
-      attrs: false,
-      codetabs: false,
-      component: false,
-      demo: false,
-      figure: false,
-      imgLazyload: true,
-      imgSize: true,
-      include: false,
-      mark: true,
-      plantuml: false,
-      spoiler: false,
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
-        },
-      ],
-      sub: true,
-      sup: true,
-      tabs: true,
-      tasklist: true,
-      vPre: true,
-
-      // 在启用之前安装 chart.js
-      // chart: true,
-
-      // insert component easily
-
-      // 在启用之前安装 echarts
-      // echarts: true,
-
-      // 在启用之前安装 flowchart.ts
-      // flowchart: true,
-
-      // gfm requires mathjax-full to provide tex support
-      // gfm: true,
-
-      // 在启用之前安装 katex
-      // katex: true,
-
-      // 在启用之前安装 mathjax-full
-      // mathjax: true,
-
-      // 在启用之前安装 mermaid
-      // mermaid: true,
-
-      // playground: {
-      //   presets: ["ts", "vue"],
-      // },
-
-      // 在启用之前安装 reveal.js
-      // revealJs: {
-      //   plugins: ["highlight", "math", "search", "notes", "zoom"],
-      // },
-
-      // 在启用之前安装 @vue/repl
-      // vuePlayground: true,
-
-      // install sandpack-vue3 before enabling it
-      // sandpack: true,
-    },
-
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
     //   favicon: "/favicon.ico",

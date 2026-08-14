@@ -1,10 +1,8 @@
 // 引入统计
 (function() {
     var script = document.createElement('script');
-    script.src = 'https://seeyou.hzchu.top/seeyou.js';
+    script.src = 'https://seeyou.hzchu.top/api/script.js';
     script.defer = true;
-    script.dataset.websiteId = '480b3ab1-bebe-454a-a462-84eab7a9e381';
-    script.dataset.hostUrl = 'https://seeyou.hzchu.top';
-    script.dataset.domains = 'mrui.hzchu.top';
+    script.dataset.siteId = '944ca064a211';
     document.head.appendChild(script);
 })();
