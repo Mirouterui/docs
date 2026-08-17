@@ -56,4 +56,4 @@ MRUI仍处于开发阶段，需要每位用户的建议不断完善。希望大�
 
 感谢各位支持❤️
 
-![Stars~](https://starchart.cc/mirouterui/mirouter-ui.svg)
+![Stars~](https://box.api.hzchu.top/api/star_history/svg?repos=Mirouterui/mirouter-ui)
